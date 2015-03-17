@@ -1,5 +1,5 @@
 ##This function cache the matrix that you had passed it.
-##The function only makes a list of 4 variables, which you will use in the next function.
+##The function makes a list of 4 variables, which you will use in the next function.
 
 makeCacheMatrix <- function(x = numeric()){
   m <- NULL
