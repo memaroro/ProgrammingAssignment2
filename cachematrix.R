@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+##This function cache the matrix that you had passed it.
+##The function only makes a list of 4 variables, which you will use in the next function.
 
 makeCacheMatrix <- function(x = numeric()){
   m <- NULL
@@ -22,7 +20,8 @@ makeCacheMatrix <- function(x = numeric()){
 } 
 
 
-## Write a short comment describing this function
+## This function computes de inverse of the cache matrix. The solve function is for calculate the inverse of
+## a square matrix.
 
 cacheSolve <- function(x, ...){
          m <- x$getsolve()
